@@ -56,10 +56,10 @@ s = "Hello"
 print(s *3)
 
 #Formatting Strings
-name ="Yash"
+name ="Yash Khanavkar"
 age = 20
 print(f"Name: {name}, Age: {age}")
-s = "My name is {} and I am {} years old.".format("YAsh",22)
+s = "My name is {} and I am {} years old.".format("YYash Khanavkar",22)
 print(s)
 s = "GeeksforGeeks"
 print("geeks" in s)
