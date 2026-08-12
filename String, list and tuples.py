@@ -65,3 +65,69 @@ s = "GeeksforGeeks"
 print("geeks" in s)
 print("GFG" in s)
 
+#Creating a list
+a=[1, 2, 3]
+print(a)
+b=["apple", "banana"]
+print(b)
+
+#Using list() constructor
+a = list((1,2,3,'apple',4.5))
+print(a)
+b = list("GFG")
+print(b)
+
+a=[2]*5
+print(a)
+b=[0]*6
+print(b)
+
+a = [1,2,2, "Python"]
+print(a[0])
+print(a)
+
+a=[10,20,30]
+print(a[0])
+print(a[-1])
+
+a = [1,2]
+a.append(3)
+print(a)
+
+a = [1,3]
+a.insert(1,2)
+print(a)
+
+a = [1,2]
+a.extend([3,4])
+print(a)
+
+#Updating Elements
+a = [10,20,30,40,50]
+a[1] = 25
+print(a)
+
+#Removing Elements
+a = [1, 2, 3]
+a.remove(2)
+print(a)
+
+a = [1, 2, 3]
+a.pop()
+print(a)
+
+a = [1,2,3]
+del a[1]
+print(a)
+
+a = [1, 2, 3]
+a.clear()
+print(a)
+
+a = ['apple', 'banana', 'cherry']
+for item in a:
+    print(item)
+
+a = [[1,2],[3,4]]
+print(a[0])
+print(a[1][0])
